@@ -66,6 +66,8 @@ public class Pantalla extends javax.swing.JFrame {
         jButton13 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(400, 300));
+        setPreferredSize(new java.awt.Dimension(450, 300));
         getContentPane().setLayout(new javax.swing.BoxLayout(getContentPane(), javax.swing.BoxLayout.Y_AXIS));
 
         jPanel1.setPreferredSize(new java.awt.Dimension(20, 5));
@@ -102,6 +104,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel3.setLayout(new java.awt.GridLayout());
 
         jButton1.setText("1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton1);
 
         jPanel2.add(jPanel3);
@@ -109,6 +116,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel8.setLayout(new java.awt.GridLayout());
 
         jButton2.setText("2");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel8.add(jButton2);
 
         jPanel2.add(jPanel8);
@@ -116,6 +128,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel17.setLayout(new java.awt.GridLayout());
 
         jButton3.setText("3");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jButton3);
 
         jPanel2.add(jPanel17);
@@ -123,6 +140,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel13.setLayout(new java.awt.GridLayout());
 
         jButton4.setText("AC");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
         jPanel13.add(jButton4);
 
         jPanel2.add(jPanel13);
@@ -130,6 +152,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel7.setLayout(new java.awt.GridLayout());
 
         jButton5.setText("4");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
         jPanel7.add(jButton5);
 
         jPanel2.add(jPanel7);
@@ -137,6 +164,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel4.setLayout(new java.awt.GridLayout());
 
         jButton6.setText("5");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         jPanel4.add(jButton6);
 
         jPanel2.add(jPanel4);
@@ -144,6 +176,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel14.setLayout(new java.awt.GridLayout());
 
         jButton7.setText("6");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel14.add(jButton7);
 
         jPanel2.add(jPanel14);
@@ -151,6 +188,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel12.setLayout(new java.awt.GridLayout());
 
         jButton8.setText("+");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel12.add(jButton8);
 
         jPanel2.add(jPanel12);
@@ -158,6 +200,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel15.setLayout(new java.awt.GridLayout());
 
         jButton9.setText("7");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel15.add(jButton9);
 
         jPanel2.add(jPanel15);
@@ -165,6 +212,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel16.setLayout(new java.awt.GridLayout());
 
         jButton10.setText("8");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
         jPanel16.add(jButton10);
 
         jPanel2.add(jPanel16);
@@ -172,6 +224,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel5.setLayout(new java.awt.GridLayout());
 
         jButton11.setText("9");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
         jPanel5.add(jButton11);
 
         jPanel2.add(jPanel5);
@@ -179,6 +236,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel18.setLayout(new java.awt.GridLayout());
 
         jButton12.setText("-");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
         jPanel18.add(jButton12);
 
         jPanel2.add(jPanel18);
@@ -186,6 +248,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel10.setLayout(new java.awt.GridLayout());
 
         jButton16.setText("0");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
         jPanel10.add(jButton16);
 
         jPanel2.add(jPanel10);
@@ -193,6 +260,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel11.setLayout(new java.awt.GridLayout());
 
         jButton15.setText("*");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
         jPanel11.add(jButton15);
 
         jPanel2.add(jPanel11);
@@ -200,6 +272,11 @@ public class Pantalla extends javax.swing.JFrame {
         jPanel9.setLayout(new java.awt.GridLayout());
 
         jButton14.setText("/");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
         jPanel9.add(jButton14);
 
         jPanel2.add(jPanel9);
@@ -219,6 +296,81 @@ public class Pantalla extends javax.swing.JFrame {
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField1ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "8");
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "1");
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "2");
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "3");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "4");
+    }//GEN-LAST:event_jButton5ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "5");
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "6");
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "7");
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "9");
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "0");
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "*");
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "/");
+    }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "+");
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(jTextField1.getText() + "-");
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        // TODO add your handling code here:
+        jTextField1.setText(" ");
+    }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
      * @param args the command line arguments
