@@ -5,6 +5,8 @@
  */
 package calculadora;
 
+import pantalla.Pantalla;
+
 /**
  *
  * @author MORALES
@@ -16,7 +18,10 @@ public class Calculadora {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("hola");
+        
+        Pantalla p = new Pantalla();
+        p.setVisible(true);
+                
     }
     
 }
